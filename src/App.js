@@ -11,8 +11,10 @@ export default function App() {
       </div>
       <div className="footer">
         <small>
-          <a href="/">Open source Code on GitHub</a> by{" "}
-          <a href="https://github.com/ALFM126">ALFM126</a>
+          <a href="https://github.com/ALFM126/weather-app-react-v2">
+            Open source Code on GitHub
+          </a>{" "}
+          by <a href="https://github.com/ALFM126">ALFM126</a>
         </small>
       </div>
     </div>
