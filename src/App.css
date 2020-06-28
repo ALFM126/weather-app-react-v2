@@ -1,19 +1,18 @@
-.current-weather {
-  display: block;
+.App {
+  max-width: 600px;
   margin: 20px auto;
-  padding: 0px;
-  border: none;
-  border-radius: 5px;
-  width: 500px;
-  height: 500px;
-  font-family: sans-serif;
-  text-align: center;
-  background-image: url("./background.png");
-  background-repeat: no-repeat;
+  border: 1px solid #dadde1;
 }
 
-.footer {
-  display: block;
+.App .app-title {
+  margin: 20px auto;
+  padding: 10px;
   text-align: center;
-  margin: 0 auto;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.App footer {
+  font-size: 14px;
+  text-align: center;
 }

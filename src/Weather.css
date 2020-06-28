@@ -1,39 +1,28 @@
-input {
-  margin: 10px;
-  padding: 10px 5px;
-  border: none;
+.Weather {
+  border: 1px solid #dadde1;
   border-radius: 5px;
+  color: #878787;
+  padding: 15px;
+  margin: 15px 0 0 0;
 }
 
-.searchBox {
-  margin: 5px 100px 5px 100px;
-  padding: 5px;
-  border: none;
-  border-radius: 15px;
-  background: #b091ffad;
-}
-
-h3 {
+.Weather h1 {
   font-size: 25px;
-  margin: 5px;
+  line-height: 30px;
+  margin: 0;
 }
 
-.descriptionBox {
-  text-align: center;
-  margin: 10px 200px 10px 20px;
-  padding: 20px;
-  border: none;
-  border-radius: 90px;
-  background: #b091ffad;
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  margin: 10px 5px 0px 5px;
-  padding: 0px;
+.Weather li {
   font-size: 15px;
+  line-height: 20px;
+  list-style: none;
 }
 
-img {
-  margin: 0px;
-  padding: 0px;
+.Weather .icon {
+  margin-top: 20px;
 }
