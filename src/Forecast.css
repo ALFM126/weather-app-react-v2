@@ -1,8 +1,10 @@
 .Forecast {
   text-align: center;
   margin: 10px 1px 0 1px;
-  border: 1px solid #dadde1;
+  padding: 10px;
+  border: none;
   border-radius: 5px;
+  font-size: 15px;
 }
 
 .Forecast canvas {
@@ -10,4 +12,13 @@
   width: 50px;
   height: 50px;
   margin: 0px auto;
+  padding: 5px;
+}
+
+.Forecast h1 {
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+  padding-bottom: 10px;
+  text-decoration: underline;
 }

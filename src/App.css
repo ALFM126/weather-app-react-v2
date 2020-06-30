@@ -1,14 +1,16 @@
 .App {
   max-width: 600px;
   margin: 20px auto;
-  border: 1px solid #dadde1;
+  border: none;
+  border-radius: 5px;
+  background-color: #95d0e9;
 }
 
 .App .app-title {
   margin: 20px auto;
   padding: 10px;
   text-align: center;
-  border: 1px solid #dadde1;
+  border: none;
   border-radius: 5px;
 }
 

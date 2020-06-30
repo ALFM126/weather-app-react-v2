@@ -1,7 +1,10 @@
 .Search {
-  border: 1px solid #dadde1;
+  border: none;
   border-radius: 5px;
-  color: #878787;
   padding: 15px;
   margin: 0px auto;
+}
+
+.Search form {
+  margin-left: 32px;
 }

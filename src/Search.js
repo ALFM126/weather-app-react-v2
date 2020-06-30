@@ -38,10 +38,10 @@ export default function Search(props) {
 
   if (details.ready) {
     return (
-      <div className="Weather">
+      <div className="Search">
         <form onSubmit={updateData}>
           <div className="row">
-            <div className="col-8">
+            <div className="col-9">
               <input
                 type="search"
                 placeholder="City Name"
@@ -50,7 +50,7 @@ export default function Search(props) {
                 onChange={searchCity}
               ></input>
             </div>
-            <div className="col-4">
+            <div className="col-3">
               <input
                 type="submit"
                 value="Search"

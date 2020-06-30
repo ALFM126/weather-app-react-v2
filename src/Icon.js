@@ -23,11 +23,11 @@ export default function Icon(props) {
     "50n": "FOG",
   };
   const iconColor = {
-    "01d": "yellow",
+    "01d": "goldenrod",
     "01n": "blue",
-    "02d": "yellow",
+    "02d": "goldenrod",
     "02n": "blue",
-    "03d": "yellow",
+    "03d": "goldenrod",
     "03n": "blue",
     "04d": "gray",
     "04n": "gray",

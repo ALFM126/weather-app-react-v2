@@ -7,7 +7,10 @@ import "./Weather.css";
 export default function Weather(props) {
   return (
     <div className="Weather">
-      <h1>{props.info.city}</h1>
+      <h1>
+        <em>Weather Info</em>
+      </h1>
+      <h2>{props.info.city}</h2>
       <ul>
         <li>
           <Time date={props.info.date} />
@@ -20,15 +23,14 @@ export default function Weather(props) {
             <Icon reference={props.info.icon} />
           </div>
         </div>
-
         <div className="col-6">
           <div className="temperature">
             <Temperature celsius={props.info.temperature} />
+            <ul>
+              <li>Humidity: {props.info.humidity} %</li>
+              <li>Wind: {Math.round(props.info.wind)} km/h</li>
+            </ul>
           </div>
-          <ul>
-            <li>Humidity: {props.info.humidity} %</li>
-            <li>Wind: {Math.round(props.info.wind)} km/h</li>
-          </ul>
         </div>
       </div>
     </div>
